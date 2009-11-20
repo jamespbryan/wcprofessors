@@ -16,12 +16,16 @@ $user_id = $facebook->require_login();
 // Greet the currently logged-in user!
 echo "<p>Hello, <fb:name uid=\"$user_id\" useyou=\"false\" />!</p>";
 
-// Print out at most 25 of the logged-in user's friends,
-// using the friends.get API method
-echo "<p>Friends:";
-$friends = $facebook->api_client->friends_get();
-$friends = array_slice($friends, 0, 25);
-foreach ($friends as $friend) {
-  echo "<br>$friend";
-}
+
+//// Print out at most 25 of the logged-in user's friends,
+//// using the friends.get API method
+//echo "<p>Friends:";
+//$friends = $facebook->api_client->friends_get();
+//$friends = array_slice($friends, 0, 25);
+//foreach ($friends as $friend) {
+//  echo "<br>$friend";
+//}
+
+echo "This application is currently in progress.";
+
 echo "</p>";

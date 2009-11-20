@@ -11,11 +11,11 @@ $secret  = 'YOUR_SECRET';
 // The IP address of your database
 $db_ip = '10.0.0.0';           
 
-$db_user = 'root';
-$db_pass = 'YOUR_DB_PASSWORD';
+$db_user = 'wcprofessors';
+$db_pass = '35f6d54774';
 
 // the name of the database that you create for footprints.
-$db_name = 'footprints';
+$db_name = 'wcprofessors';
 
 /* create this table on the database:
 CREATE TABLE `footprints` (
